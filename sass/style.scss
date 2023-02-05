@@ -1,0 +1,525 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+@font-face {
+  font-family: "space-mono";
+  src: url("./fonts/Space_Mono/SpaceMono-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "lexend-deca";
+  src: url("./fonts/Lexend_Deca/LexendDeca-Regular.ttf") format("truetype");
+}
+.container-fluid {
+  header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #ffffff;
+    .card1 {
+      display: flex;
+      gap: 40px;
+      align-items: flex-start;
+      padding: 25px 0 25px 169px;
+      ul {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        a {
+          text-decoration: none;
+          font-family: "Space-Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 25px;
+          color: #939caa;
+          transition: 0.3s linear;
+          &:hover {
+            color: #fcb72b;
+          }
+        }
+      }
+    }
+    button {
+      font-family: "Space-Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #ffffff;
+      background: #fcb72b;
+      padding: 14px 39px;
+      border: none;
+      margin-right: 165px;
+      transition: 0.3s linear;
+      &:hover {
+        color: #fcb72b;
+        background-color: #ffffff;
+        border: 1px solid #fcb72b;
+      }
+    }
+  }
+  .wrapper1 {
+    width: 100%;
+    padding-top: 100px;
+    .bg-img1 {
+      width: 100%;
+      height: 200px;
+      background-image: url(./images/Bitmap.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      h1 {
+        font-family: "Space-Mono";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        color: #ffffff;
+        padding-top: 72px;
+        padding-left: 165px;
+      }
+    }
+  }
+  .wrapper2 {
+    width: 100%;
+    .card2 {
+      .row {
+        width: 100%;
+        padding-top: 266px;
+        padding-left: 165px;
+        .col-6 {
+          h1 {
+            font-family: "Space-Mono";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -2.14286px;
+            color: #495567;
+            width: 445px;
+            margin-bottom: 24px;
+          }
+          p {
+            font-family: "Lexend-Deca";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939caa;
+            width: 445px;
+            margin-bottom: 40px;
+          }
+          button {
+            font-family: "Space-Mono";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #ffffff;
+            background: #fcb72b;
+            padding: 14px 39px;
+            border: none;
+            transition: 0.3s linear;
+            &:hover {
+              color: #fcb72b;
+              background-color: #ffffff;
+              border: 1px solid #fcb72b;
+            }
+          }
+        }
+        .col-66 {
+          .cards2 {
+            display: flex;
+            margin-top: -150px;
+            .mask {
+              margin-left: -95px;
+            }
+            .bg-img2 {
+              width: 668px;
+              height: 445px;
+              background-image: url(./images/girl.jpg);
+              background-repeat: no-repeat;
+              img {
+                padding-top: 300px;
+                width: 675px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .card3 {
+      .row {
+        width: 100%;
+        padding-top: 266px;
+        padding-left: 165px;
+        .col-6 {
+          h1 {
+            font-family: "Space-Mono";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -2.14286px;
+            color: #495567;
+            width: 445px;
+            margin-bottom: 24px;
+          }
+          p {
+            font-family: "Lexend-Deca";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939caa;
+            width: 445px;
+            margin-bottom: 40px;
+          }
+          button {
+            font-family: "Space-Mono";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #ffffff;
+            background: #fcb72b;
+            padding: 14px 39px;
+            border: none;
+            transition: 0.3s linear;
+            &:hover {
+              color: #fcb72b;
+              background-color: #ffffff;
+              border: 1px solid #fcb72b;
+            }
+          }
+        }
+        .col-67 {
+          .cards3 {
+            display: flex;
+            margin-top: -150px;
+            gap: 100px;
+            .mask2 {
+              margin-left: -200px;
+            }
+            .bg-img2 {
+              width: 668px;
+              height: 445px;
+              background-image: url(./images/street.jpg);
+              background-repeat: no-repeat;
+              img {
+                margin-left: -200px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .wrapper3 {
+    width: 100%;
+    h1 {
+      font-family: "Space-Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 48px;
+      text-align: center;
+      letter-spacing: -2.14286px;
+      color: #495567;
+      padding-top: 78px;
+    }
+    .wrap1 {
+      width: 100%;
+      display: flex;
+      margin-top: 85px;
+      gap: 100px;
+      .card4 {
+        padding-left: 200px;
+        .bg-img3 {
+          width: 240px;
+          height: 240px;
+          background-image: url(./images/phone.jpg);
+          margin-left: 25px;
+          img {
+            padding-top: 195px;
+            padding-left: 70px;
+          }
+        }
+        h1 {
+          font-family: "Space-Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          text-align: center;
+          letter-spacing: -1.07143px;
+          color: #495567;
+        }
+        p {
+          font-family: "Lexend Deca";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          text-align: center;
+          color: #939caa;
+          margin-top: 27px;
+          width: 290px;
+        }
+      }
+      .card5 {
+        .bg-img3 {
+          width: 240px;
+          height: 240px;
+          background-image: url(./images/moto.svg);
+          margin-left: 25px;
+          img {
+            padding-top: 195px;
+            padding-left: 70px;
+          }
+        }
+        h1 {
+          font-family: "Space-Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          text-align: center;
+          letter-spacing: -1.07143px;
+          color: #495567;
+        }
+        p {
+          font-family: "Lexend Deca";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          text-align: center;
+          color: #939caa;
+          margin-top: 27px;
+          width: 290px;
+        }
+      }
+      .card6 {
+        .bg-img3 {
+          width: 240px;
+          height: 240px;
+          background-image: url(./images/people.jpg);
+          margin-left: 25px;
+          img {
+            padding-top: 195px;
+            padding-left: 70px;
+          }
+        }
+        h1 {
+          font-family: "Space-Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          text-align: center;
+          letter-spacing: -1.07143px;
+          color: #495567;
+        }
+        p {
+          font-family: "Lexend Deca";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          text-align: center;
+          color: #939caa;
+          margin-top: 27px;
+          width: 290px;
+        }
+      }
+    }
+  }
+  .wrapper4 {
+    width: 100%;
+    .head1 {
+      font-family: "Space-Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 48px;
+      text-align: center;
+      letter-spacing: -2.14286px;
+      color: #495567;
+      margin-top: 120px;
+    }
+    .card7 {
+      display: flex;
+      gap: 50px;
+      margin-top: 64px;
+      .head2 {
+        font-family: "Space-Mono";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -1.78571px;
+        color: #495567;
+        padding-left: 165px;
+      }
+      .accordion-item {
+        .accordion-button {
+          font-family: "Space-Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          letter-spacing: -1.07143px;
+          color: #495567;
+          background: #f2f5f9;
+          padding: 32px 40px 32px 40px;
+          position: static;
+        }
+        .accordion-body {
+          background: #f2f5f9;
+          p {
+            font-family: "Lexend-Deca";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #495567;
+          }
+        }
+      }
+    }
+  }
+  .wrapper5 {
+    width: 100%;
+    .head1 {
+      font-family: "Space-Mono";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 48px;
+      text-align: center;
+      letter-spacing: -2.14286px;
+      color: #495567;
+      margin-top: 120px;
+    }
+    .card8 {
+      display: flex;
+      gap: 60px;
+      margin-top: 64px;
+      .head2 {
+        font-family: "Space-Mono";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -1.78571px;
+        color: #495567;
+        padding-left: 165px;
+      }
+      .accordion-item {
+        .accordion-button {
+          font-family: "Space-Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          letter-spacing: -1.07143px;
+          color: #495567;
+          background: #f2f5f9;
+          padding: 32px 40px 32px 40px;
+          position: static;
+        }
+        .accordion-body {
+          background: #f2f5f9;
+          p {
+            font-family: "Lexend-Deca";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #495567;
+          }
+        }
+      }
+    }
+  }
+  .wrapper6 {
+    width: 100%;
+    margin-top: 160px;
+    .bg-img3 {
+      width: 100%;
+      height: 300px;
+      background-image: url(./images/bg-mask3.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      .cards3 {
+        display: flex;
+        justify-content: space-between;
+        h1 {
+          font-family: "Space-Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 48px;
+          letter-spacing: -2.14286px;
+          color: #ffffff;
+          width: 600px;
+          padding-top: 102px;
+          padding-left: 165px;
+        }
+        .content {
+          padding-top: 122px;
+          padding-right: 165px;
+        }
+      }
+    }
+  }
+  footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #333a44;
+    justify-content: space-between;
+    .card5 {
+      display: flex;
+      align-items: baseline;
+      gap: 50px;
+      img {
+        padding: 35px 0 35px 168px;
+      }
+      ul {
+        display: flex;
+        gap: 32px;
+        a {
+          text-decoration: none;
+          font-family: "Space-Mono";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 25px;
+          color: #939caa;
+          transition: 0.3s linear;
+          &:hover {
+            color: #fcb72b;
+          }
+        }
+      }
+    }
+    .icons {
+      display: flex;
+      gap: 24px;
+      padding-right: 165px;
+      img {
+        cursor: pointer;
+      }
+    }
+  }
+}
