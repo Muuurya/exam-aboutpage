@@ -522,4 +522,517 @@
       }
     }
   }
+  @media (max-width: 990px) {
+    header {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      .card1 {
+        padding: 25px 150px 25px 70px;
+      }
+      button {
+        margin-right: 0px;
+        padding: 14px 39px;
+      }
+      i {
+        display: none;
+      }
+    }
+    .wrapper2 {
+      width: 100%;
+      .card2 {
+        .row {
+          padding-left: 100px;
+          width: 100%;
+          .col-6 {
+            h1 {
+              font-size: 35px;
+              width: 320px;
+            }
+            p {
+              font-size: 12px;
+              width: 320px;
+            }
+          }
+          .col-66 {
+            .cards2 {
+              .bg-img2 {
+                width: 550px;
+                height: 498px;
+                background-size: 350px;
+                img {
+                  padding-top: 200px;
+                  margin-left: -65px;
+                  width: 430px;
+                }
+              }
+              .mask {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+      .card3 {
+        .row {
+          width: 100%;
+          padding-top: 50px;
+          padding-left: 100px;
+          .col-6 {
+            h1 {
+              font-size: 35px;
+              width: 320px;
+            }
+            p {
+              font-size: 12px;
+              width: 320px;
+            }
+          }
+          .col-67 {
+            .cards3 {
+              .mask2 {
+                display: none;
+              }
+              .bg-img2 {
+                width: 650px;
+                height: 498px;
+                background-size: 350px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .wrapper3 {
+      width: 100%;
+      .wrap1 {
+        display: flex;
+        flex-wrap: wrap;
+        .card4 {
+          padding-left: 130px;
+        }
+        .card6 {
+          padding-left: 320px;
+        }
+      }
+    }
+    .wrapper4 {
+      width: 100%;
+      .card7 {
+        .head2 {
+          padding-left: 100px;
+        }
+      }
+    }
+    .wrapper5 {
+      width: 100%;
+      .card8 {
+        .head2 {
+          padding-left: 100px;
+        }
+      }
+    }
+    .wrapper6 {
+      width: 100%;
+      margin-top: 100px;
+      .bg-img3 {
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        .cards3 {
+          h1 {
+            font-size: 35px;
+            width: 400px;
+            padding-left: 100px;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 769px) {
+    header {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      .card1 {
+        padding: 25px 30px 25px 70px;
+      }
+      button {
+        margin-right: 0px;
+        padding: 14px 39px;
+      }
+      i {
+        display: none;
+      }
+    }
+    .wrapper1 {
+      width: 100%;
+      .bg-img1 {
+        width: 100%;
+        background-position: center;
+      }
+    }
+    .wrapper2 {
+      width: 100%;
+      .card2 {
+        .row {
+          padding-left: 150px;
+          width: 100%;
+          .col-6 {
+            h1 {
+              font-size: 35px;
+              width: 320px;
+              text-align: center;
+              margin-left: 50px;
+            }
+            p {
+              font-size: 12px;
+              width: 400px;
+              margin-bottom: 200px;
+              text-align: center;
+            }
+          }
+          .col-66 {
+            .cards2 {
+              .bg-img2 {
+                width: 550px;
+                height: 498px;
+                background-size: 350px;
+                margin-left: 30px;
+                img {
+                  padding-top: 200px;
+                  margin-left: -65px;
+                  width: 600px;
+                }
+              }
+              .mask {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+      .card3 {
+        .row {
+          width: 100%;
+          padding-top: 100px;
+          padding-left: 100px;
+          .col-6 {
+            h1 {
+              font-size: 35px;
+              width: 320px;
+              text-align: center;
+              margin-left: 100px;
+              margin-top: -100px;
+            }
+            p {
+              font-size: 12px;
+              width: 400px;
+              text-align: center;
+              margin-left: 50px;
+            }
+          }
+          .col-67 {
+            .cards3 {
+              .mask2 {
+                display: none;
+              }
+              .bg-img2 {
+                width: 650px;
+                height: 498px;
+                background-size: 350px;
+                margin-left: 80px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .wrapper3 {
+      width: 100%;
+      .wrap1 {
+        display: flex;
+        flex-wrap: wrap;
+        .card4 {
+          padding-left: 200px;
+        }
+        .card5 {
+          padding-left: 200px;
+        }
+        .card6 {
+          padding-left: 200px;
+        }
+      }
+    }
+    .wrapper4 {
+      width: 100%;
+      .card7 {
+        .head2 {
+          padding-left: 0px;
+        }
+      }
+    }
+    .wrapper5 {
+      width: 100%;
+      .card8 {
+        .head2 {
+          padding-left: 0px;
+        }
+      }
+    }
+    .wrapper6 {
+      width: 100%;
+      margin-top: 100px;
+      .bg-img3 {
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        .cards3 {
+          display: flex;
+          flex-wrap: wrap;
+          h1 {
+            font-size: 30px;
+            width: 400px;
+            margin-left: 120px;
+            text-align: center;
+            padding-top: 30px;
+          }
+          .content {
+            margin-top: -100px;
+            margin-left: 190px;
+          }
+        }
+      }
+    }
+    footer {
+      width: 100%;
+      .card5 {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        img {
+          padding-left: 50px;
+        }
+        ul {
+          display: flex;
+          gap: 15px;
+        }
+      }
+      .icons {
+      }
+    }
+  }
+  @media (max-width: 447px) {
+    header {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      .card1 {
+        padding: 25px 30px 25px 70px;
+        img {
+          margin-left: 70px;
+        }
+        ul {
+          display: none;
+        }
+      }
+      button {
+        margin-right: 0px;
+        padding: 14px 39px;
+        display: none;
+      }
+      i {
+        display: block;
+        font-size: 30px;
+        color: #fcb72b;
+        margin-left: 60px;
+      }
+    }
+    .wrapper1 {
+      width: 100%;
+      .bg-img1 {
+        width: 100%;
+        background-position: center;
+        h1 {
+          padding-left: 120px;
+        }
+      }
+    }
+    .wrapper2 {
+      width: 100%;
+      .card2 {
+        .row {
+          padding-left: 0px;
+          width: 100%;
+          .col-6 {
+            h1 {
+              font-size: 35px;
+              width: 320px;
+              text-align: center;
+              margin-left: 50px;
+            }
+            p {
+              font-size: 12px;
+              width: 400px;
+              margin-bottom: 200px;
+              text-align: center;
+            }
+          }
+          .col-66 {
+            .cards2 {
+              .bg-img2 {
+                width: 550px;
+                height: 498px;
+                background-size: 350px;
+                margin-left: 30px;
+                img {
+                  padding-top: 200px;
+                  margin-left: -30px;
+                  width: 400px;
+                }
+              }
+              .mask {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+      .card3 {
+        .row {
+          width: 100%;
+          padding-top: 100px;
+          padding-left: 0px;
+          .col-6 {
+            h1 {
+              font-size: 35px;
+              width: 320px;
+              text-align: center;
+              margin-left: 50px;
+              margin-top: -100px;
+            }
+            p {
+              font-size: 12px;
+              width: 400px;
+              text-align: center;
+              margin-left: 0px;
+            }
+          }
+          .col-67 {
+            .cards3 {
+              .mask2 {
+                display: none;
+              }
+              .bg-img2 {
+                width: 650px;
+                height: 498px;
+                background-size: 350px;
+                margin-left: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .wrapper3 {
+      width: 100%;
+      .wrap1 {
+        display: flex;
+        flex-wrap: wrap;
+        .card4 {
+          padding-left: 60px;
+        }
+        .card5 {
+          padding-left: 60px;
+        }
+        .card6 {
+          padding-left: 60px;
+        }
+      }
+    }
+    .wrapper4 {
+      width: 100%;
+      .card7 {
+        display: block;
+        .head2 {
+          padding-left: 60px;
+        }
+        .accordion {
+          margin-left: 100px;
+        }
+      }
+    }
+    .wrapper5 {
+      width: 100%;
+      .card8 {
+        display: block;
+        .head2 {
+          padding-left: 60px;
+        }
+        .accordion {
+          margin-left: 100px;
+        }
+      }
+    }
+    .wrapper6 {
+      width: 100%;
+      margin-top: 100px;
+      .bg-img3 {
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+        .cards3 {
+          display: flex;
+          flex-wrap: wrap;
+          h1 {
+            font-size: 30px;
+            width: 400px;
+            margin-left: -50px;
+            text-align: center;
+            padding-top: 30px;
+          }
+          .content {
+            margin-top: -100px;
+            margin-left: 20px;
+            display: flex;
+            gap: 10px;
+          }
+        }
+      }
+    }
+    footer {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      .card5 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        img {
+          padding-left: 140px;
+        }
+        ul {
+          display: block;
+          padding-left: 140px;
+          text-align: center;
+          gap: 15px;
+          a {
+            font-size: 30px;
+            margin-left: -25px;
+          }
+          li {
+            margin-bottom: 20px;
+          }
+        }
+      }
+      .icons {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 140px;
+      }
+    }
+  }
 }
