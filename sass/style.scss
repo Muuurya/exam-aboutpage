@@ -865,16 +865,17 @@
           width: 100%;
           .col-6 {
             h1 {
-              font-size: 35px;
-              width: 320px;
+              font-size: 25px;
+              width: 300px;
               text-align: center;
               margin-left: 50px;
             }
             p {
               font-size: 12px;
-              width: 400px;
+              width: 300px;
               margin-bottom: 200px;
               text-align: center;
+              margin-left: 60px;
             }
           }
           .col-66 {
@@ -882,12 +883,12 @@
               .bg-img2 {
                 width: 550px;
                 height: 498px;
-                background-size: 350px;
-                margin-left: 30px;
+                background-size: 300px;
+                margin-left: 50px;
                 img {
                   padding-top: 200px;
-                  margin-left: -30px;
-                  width: 400px;
+                  margin-left: 0px;
+                  width: 300px;
                 }
               }
               .mask {
@@ -904,17 +905,17 @@
           padding-left: 0px;
           .col-6 {
             h1 {
-              font-size: 35px;
-              width: 320px;
+              font-size: 25px;
+              width: 300px;
               text-align: center;
               margin-left: 50px;
               margin-top: -100px;
             }
             p {
               font-size: 12px;
-              width: 400px;
+              width: 300px;
               text-align: center;
-              margin-left: 0px;
+              margin-left: 50px;
             }
           }
           .col-67 {
@@ -925,8 +926,12 @@
               .bg-img2 {
                 width: 650px;
                 height: 498px;
-                background-size: 350px;
-                margin-left: 20px;
+                background-size: 300px;
+                margin-left: 45px;
+                img {
+                  width: 300px;
+                  padding-left: 100px;
+                }
               }
             }
           }
@@ -939,13 +944,13 @@
         display: flex;
         flex-wrap: wrap;
         .card4 {
-          padding-left: 60px;
+          padding-left: 40px;
         }
         .card5 {
-          padding-left: 60px;
+          padding-left: 40px;
         }
         .card6 {
-          padding-left: 60px;
+          padding-left: 40px;
         }
       }
     }
@@ -958,6 +963,11 @@
         }
         .accordion {
           margin-left: 100px;
+          .accordion-item {
+            button {
+              font-size: 15px;
+            }
+          }
         }
       }
     }
@@ -970,6 +980,11 @@
         }
         .accordion {
           margin-left: 100px;
+          .accordion-item {
+            button {
+              font-size: 15px;
+            }
+          }
         }
       }
     }
@@ -985,17 +1000,20 @@
           display: flex;
           flex-wrap: wrap;
           h1 {
-            font-size: 30px;
-            width: 400px;
-            margin-left: -50px;
+            font-size: 20px;
+            width: 300px;
+            margin-left: -20px;
             text-align: center;
             padding-top: 30px;
           }
           .content {
             margin-top: -100px;
-            margin-left: 20px;
+            margin-left: 90px;
             display: flex;
             gap: 10px;
+            img {
+              width: 100px;
+            }
           }
         }
       }
@@ -1018,8 +1036,8 @@
           text-align: center;
           gap: 15px;
           a {
-            font-size: 30px;
-            margin-left: -25px;
+            font-size: 20px;
+            margin-left: 0px;
           }
           li {
             margin-bottom: 20px;

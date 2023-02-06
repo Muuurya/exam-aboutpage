@@ -803,27 +803,28 @@
     width: 100%;
   }
   .container-fluid .wrapper2 .card2 .row .col-6 h1 {
-    font-size: 35px;
-    width: 320px;
+    font-size: 25px;
+    width: 300px;
     text-align: center;
     margin-left: 50px;
   }
   .container-fluid .wrapper2 .card2 .row .col-6 p {
     font-size: 12px;
-    width: 400px;
+    width: 300px;
     margin-bottom: 200px;
     text-align: center;
+    margin-left: 60px;
   }
   .container-fluid .wrapper2 .card2 .row .col-66 .cards2 .bg-img2 {
     width: 550px;
     height: 498px;
-    background-size: 350px;
-    margin-left: 30px;
+    background-size: 300px;
+    margin-left: 50px;
   }
   .container-fluid .wrapper2 .card2 .row .col-66 .cards2 .bg-img2 img {
     padding-top: 200px;
-    margin-left: -30px;
-    width: 400px;
+    margin-left: 0px;
+    width: 300px;
   }
   .container-fluid .wrapper2 .card2 .row .col-66 .cards2 .mask {
     display: none;
@@ -834,17 +835,17 @@
     padding-left: 0px;
   }
   .container-fluid .wrapper2 .card3 .row .col-6 h1 {
-    font-size: 35px;
-    width: 320px;
+    font-size: 25px;
+    width: 300px;
     text-align: center;
     margin-left: 50px;
     margin-top: -100px;
   }
   .container-fluid .wrapper2 .card3 .row .col-6 p {
     font-size: 12px;
-    width: 400px;
+    width: 300px;
     text-align: center;
-    margin-left: 0px;
+    margin-left: 50px;
   }
   .container-fluid .wrapper2 .card3 .row .col-67 .cards3 .mask2 {
     display: none;
@@ -852,8 +853,12 @@
   .container-fluid .wrapper2 .card3 .row .col-67 .cards3 .bg-img2 {
     width: 650px;
     height: 498px;
-    background-size: 350px;
-    margin-left: 20px;
+    background-size: 300px;
+    margin-left: 45px;
+  }
+  .container-fluid .wrapper2 .card3 .row .col-67 .cards3 .bg-img2 img {
+    width: 300px;
+    padding-left: 100px;
   }
   .container-fluid .wrapper3 {
     width: 100%;
@@ -863,13 +868,13 @@
     flex-wrap: wrap;
   }
   .container-fluid .wrapper3 .wrap1 .card4 {
-    padding-left: 60px;
+    padding-left: 40px;
   }
   .container-fluid .wrapper3 .wrap1 .card5 {
-    padding-left: 60px;
+    padding-left: 40px;
   }
   .container-fluid .wrapper3 .wrap1 .card6 {
-    padding-left: 60px;
+    padding-left: 40px;
   }
   .container-fluid .wrapper4 {
     width: 100%;
@@ -883,6 +888,9 @@
   .container-fluid .wrapper4 .card7 .accordion {
     margin-left: 100px;
   }
+  .container-fluid .wrapper4 .card7 .accordion .accordion-item button {
+    font-size: 15px;
+  }
   .container-fluid .wrapper5 {
     width: 100%;
   }
@@ -894,6 +902,9 @@
   }
   .container-fluid .wrapper5 .card8 .accordion {
     margin-left: 100px;
+  }
+  .container-fluid .wrapper5 .card8 .accordion .accordion-item button {
+    font-size: 15px;
   }
   .container-fluid .wrapper6 {
     width: 100%;
@@ -910,17 +921,20 @@
     flex-wrap: wrap;
   }
   .container-fluid .wrapper6 .bg-img3 .cards3 h1 {
-    font-size: 30px;
-    width: 400px;
-    margin-left: -50px;
+    font-size: 20px;
+    width: 300px;
+    margin-left: -20px;
     text-align: center;
     padding-top: 30px;
   }
   .container-fluid .wrapper6 .bg-img3 .cards3 .content {
     margin-top: -100px;
-    margin-left: 20px;
+    margin-left: 90px;
     display: flex;
     gap: 10px;
+  }
+  .container-fluid .wrapper6 .bg-img3 .cards3 .content img {
+    width: 100px;
   }
   .container-fluid footer {
     width: 100%;
@@ -943,8 +957,8 @@
     gap: 15px;
   }
   .container-fluid footer .card5 ul a {
-    font-size: 30px;
-    margin-left: -25px;
+    font-size: 20px;
+    margin-left: 0px;
   }
   .container-fluid footer .card5 ul li {
     margin-bottom: 20px;
