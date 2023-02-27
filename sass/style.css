@@ -45,7 +45,7 @@
 .container-fluid header .card1 ul a:hover {
   color: #fcb72b;
 }
-.container-fluid header button {
+.container-fluid header .button {
   font-family: "Space-Mono";
   font-style: normal;
   font-weight: 700;
@@ -56,13 +56,22 @@
   background: #fcb72b;
   padding: 14px 39px;
   border: none;
-  margin-right: 165px;
+  margin-right: -150px;
   transition: 0.3s linear;
 }
-.container-fluid header button:hover {
+.container-fluid header .button:hover {
   color: #fcb72b;
   background-color: #ffffff;
   border: 1px solid #fcb72b;
+}
+.container-fluid header .dark {
+  color: white;
+  background-color: black;
+  margin-right: 0px;
+}
+.container-fluid header .light {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 .container-fluid .wrapper1 {
   width: 100%;
@@ -339,7 +348,7 @@
   text-align: center;
   letter-spacing: -2.14286px;
   color: #495567;
-  margin-top: 120px;
+  margin-top: 0px;
 }
 .container-fluid .wrapper4 .card7 {
   display: flex;
@@ -396,7 +405,7 @@
 .container-fluid .wrapper5 .card8 {
   display: flex;
   gap: 60px;
-  margin-top: 64px;
+  margin-top: 0px;
 }
 .container-fluid .wrapper5 .card8 .head2 {
   font-family: "Space-Mono";
@@ -433,7 +442,7 @@
 }
 .container-fluid .wrapper6 {
   width: 100%;
-  margin-top: 160px;
+  margin-top: 0px;
 }
 .container-fluid .wrapper6 .bg-img3 {
   width: 100%;

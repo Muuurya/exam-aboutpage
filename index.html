@@ -23,7 +23,7 @@
     </head>
     <body>
       <div class="container-fluid">
-        <header>
+        <header id="headerr">
           <div class="card1">
             <a href="#">
               <img src="./images/logo.svg" alt="" />
@@ -36,15 +36,17 @@
               <li><a href="#">Careers</a></li>
             </ul>
           </div>
-          <button type="button">Get Scootin</button>
+          <button class="button" type="button">Get Scootin</button>
+          <button onclick="darkmode()" class="dark" type="button">Dark</button>
+          <button onclick="lightmode()" class="light" type="button">Light</button>
           <i class="fa-solid fa-bars"></i>
         </header>
-        <div class="wrapper1">
+        <div class="wrapper1" id="wrapper1.1">
           <div class="bg-img1">
             <h1>About</h1>
           </div>
         </div>
-        <div class="wrapper2">
+        <div class="wrapper2" id="wrapper2.2">
             <div class="card2">
               <div class="row">
                 <div class="col-6 col-sm-12 col-md-6 col-12">
@@ -83,7 +85,7 @@
               </div>
             </div>
         </div>
-        <div class="wrapper3">
+        <div class="wrapper3" id="wrapper3.3">
           <h1>Our values</h1>
           <div class="wrap1">
                <div class="card4">
@@ -109,7 +111,7 @@
                </div>
               </div>
         </div>
-        <div class="wrapper4">
+        <div class="wrapper4" id="wrapper4.4">
           <h1 class="head1">FAQs</h1>
           <div class="card7">
             <h1 class="head2">How it works</h1>
@@ -154,7 +156,7 @@
             </div>
           </div>
         </div>
-        <div class="wrapper5">
+        <div class="wrapper5" id="wrapper5.5">
           <div class="card8">
             <h1 class="head2">Safe driving</h1>
             <div class="accordion w-50 " id="accordionExample">
@@ -197,7 +199,7 @@
             </div>
             </div>
           </div>
-      <div class="wrapper6">
+      <div class="wrapper6" id="wrapper6.6">
         <div class="bg-img3">
           <div class="cards3">
             <h1>Sign up and Scoot off today</h1>
@@ -233,5 +235,6 @@
       </footer>
     </div>
     <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./JS/main.js"></script>
   </body>
 </html>
